@@ -1,0 +1,98 @@
+.center {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  }
+
+  h1 {
+    font-size: 400%;
+    }
+  
+  h2 {
+    margin-top: 1em;
+    font-size: 200%;
+    margin-bottom: 0.5em;
+  }
+
+   .block {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+     }
+
+
+
+.grid {
+  display: grid;
+  width: 300px;
+  height: 300px;
+  grid-template-columns: auto auto auto;
+}
+
+
+  #block_0,
+  #block_1,
+  #block_2 {
+    border-top: none;
+  }
+  
+  #block_0,
+  #block_3,
+  #block_6 {
+    border-left: none;
+  }
+  
+  #block_6,
+  #block_7,
+  #block_8 {
+    border-bottom: none;
+  }
+  
+  #block_2,
+  #block_5,
+  #block_8 {
+    border-right: none;
+  }
+
+  button {
+    outline: none;
+    border: 4px solid green;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+
+  }
+  
+  .playerOneWin {
+    color: green;
+  }
+  
+  .playerTwoWin {
+    color: red;
+  }
+  .playerOneTurn {
+    color: green;
+  }
+  
+  .draw {
+    color: darkblue;
+  }
+  .cat{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .dog{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
